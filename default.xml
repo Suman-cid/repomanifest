@@ -15,6 +15,6 @@
            sync-j="4" />
   <!-- projects CID-specific -->
   <project path="packages/apps/camera" name="Suman-cid/packages_apps_camera"  />
-  <project path="external/stlport" name="Suman-cid/hardware_imx_camera"  />
+  <project path="hardware/imx/camera" name="Suman-cid/hardware_imx_camera"  />
 
 </manifest>
