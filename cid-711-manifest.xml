@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/" 
+           revision="refs/tags/android-7.1.1_r13" />
+  <remote  name="origin"
+           fetch="ssh://git@github.com" />
+  <remote  name="freescale"
+           fetch="git://git.freescale.com/" />
+  <remote  name="private"
+           fetch="ssh://git@github.com/" />
+  <default revision="development"
+           remote="origin"
+           sync-j="4" />
+  <!-- projects CID-specific -->
+  <project path="packages/apps/camera" name="Suman-cid/packages_apps_camera"  />
+  <project path="external/stlport" name="Suman-cid/hardware_imx_camera"  />
+
+</manifest>
