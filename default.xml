@@ -10,7 +10,7 @@
            fetch="git://git.freescale.com/" />
   <remote  name="private"
            fetch="ssh://git@github.com/" />
-  <default revision="development"
+  <default revision="master"
            remote="origin"
            sync-j="4" />
   <!-- projects CID-specific -->
